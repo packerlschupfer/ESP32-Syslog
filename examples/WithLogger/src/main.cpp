@@ -44,7 +44,7 @@ void syslogCallback(esp_log_level_t level, const char* tag, const char* message)
 
 void setup() {
     // Initialize Logger
-    logger.begin(115200);
+    logger.init();
     logger.setLogLevel(ESP_LOG_DEBUG);
 
     logger.log(ESP_LOG_INFO, "Setup", "ESP32-Syslog + Logger Example");
