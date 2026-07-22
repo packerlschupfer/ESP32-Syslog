@@ -1,0 +1,22 @@
+{
+  "name": "ESP32-Syslog",
+  "version": "0.1.0",
+  "description": "RFC 3164 UDP syslog client for ESP32 with ESP32-Logger integration",
+  "keywords": ["syslog", "logging", "udp", "rfc3164", "esp32"],
+  "authors": [
+    {
+      "name": "packerlschupfer",
+      "maintainer": true
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/packerlschupfer/ESP32-Syslog.git"
+  },
+  "license": "GPL-3",
+  "frameworks": ["arduino", "espidf"],
+  "platforms": ["espressif32"],
+  "dependencies": {
+    "ESP32-Logger": "https://github.com/packerlschupfer/ESP32-Logger.git"
+  }
+}
